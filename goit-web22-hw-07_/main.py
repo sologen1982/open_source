@@ -139,6 +139,8 @@ def select_10():
     return result
 
 
+
+
 def select_12():
     """
     select max(grade_date)
