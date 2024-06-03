@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-web22-hw-09"
+version = "0.1.0"
+description = ""
+authors = ["sologen1982 <sologen1982@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+scrapy = "^2.11.2"
+playwright = "^1.44.0"
+mongoengine = "^0.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
