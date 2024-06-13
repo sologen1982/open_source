@@ -1,0 +1,10 @@
+<!-- templates/quotes/author_detail.html -->
+{% extends 'quotes/base.html' %}
+
+{% block content %}
+  <h2>{{ author.fullname }}</h2>
+  <p><strong>Born:</strong> {{ author.born_date }}</p>
+  <p><strong>Location:</strong> {{ author.born_location }}</p>
+  <p><strong>Description:</strong> {{ author.description }}</p>
+  <a href="{% url 'quotes:root' %}" class="btn btn-secondary">Back to Home</a>
+{% endblock %}
