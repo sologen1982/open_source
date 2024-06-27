@@ -39,3 +39,5 @@ class User(Base):
     created_at = Column(DateTime, default=func.now())
     updated_at = Column(DateTime, default=func.now(), onupdate=func.now())
     role = Column(Enum(Role), default=Role.user, nullable=True)
+    confirmed = Column(Boolean, default=False, nullable=True)
+
